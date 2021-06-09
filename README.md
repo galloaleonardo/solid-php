@@ -2,7 +2,7 @@
 
 ---
 
-### Runing
+### Running
 
 ```shell
 composer dump-autoload
