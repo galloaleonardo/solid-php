@@ -1,0 +1,27 @@
+{
+    "name": "galloaleonardo/solid-php",
+    "description": "SOLID principles - PHP examples",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leonardo Gallo",
+            "email": "galloaleonardo@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SingleResponsibility\\Violates\\": "src/01-single-responsibility/violates/",
+            "SingleResponsibility\\RightWay\\": "src/01-single-responsibility/right-way/",
+            "OpenClosed\\Violates\\": "src/02-open-closed/violates/",
+            "OpenClosed\\RightWay\\": "src/02-open-closed/right-way/",
+            "LiskovSubstitution\\Violates\\": "src/03-liskov-substitution/violates/",
+            "LiskovSubstitution\\RightWay\\": "src/03-liskov-substitution/right-way/",
+            "InterfaceSegregation\\Violates\\": "src/04-interface-segregation/violates/",
+            "InterfaceSegregation\\RightWay\\": "src/04-interface-segregation/right-way/",
+            "DependencyInversion\\Violates\\": "src/05-dependency-inversion/violates/",
+            "DependencyInversion\\RightWay\\": "src/05-dependency-inversion/right-way/"
+        }
+    }
+}
